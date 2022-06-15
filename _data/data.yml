@@ -4,7 +4,7 @@
 
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: 刘子森
@@ -15,9 +15,9 @@ sidebar:
     email: karl.liu.1024@gmail.com
     phone: (+86) 152 1042 2569
     citizenship: 北京
-    website: rabbull.github.com/resume #do not add http://
-    linkedin:
-    xing:
+    website: rabbull.github.io/resume #do not add http://
+    linkedin: xxx
+    xing: xxx
     github: rabbull
     telegram: # add your nickname without '@' sign
     gitlab:
@@ -26,7 +26,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf:
 
     languages:
       - idiom: 中文
@@ -39,37 +39,28 @@ sidebar:
       - item: 运动：飞盘、美式橄榄球、篮球
         link:
 
-      - item: 电子垃圾回收再利用
+      - item: 硬件：电子垃圾回收再利用
         link:
 
-      - item: 游戏： Paradox Interactive 粉丝
-        link:
+      - item: 游戏：Paradox Interactive 粉丝
+        link: 
 
-career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
 education:
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    - title: 教育经历
+    - degree: 软件工程专业 工学学士
+      university: 四川大学软件学院
+      time: 2017 - 2021
+      details:
+        - RoboMaster 机甲大师赛全球总决赛团体二等奖，2019
+        - 大学生创新创业计划优秀项目第一名，2019
+        - 四川大学计算机学院 ACM 秋季赛银奖，2018
+        - 蓝桥杯四川省一等奖，2017
+
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - title: 工作经历
+    - role: 服务端软件工程师
+      time: 2021 - 今
+      company: 字节跳动，北京
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -82,9 +73,9 @@ experiences:
         architecto beatae vitae dicta sunt explicabo.
           - Bullet point
           - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: 服务端软件工程师（实习）
+      time: 2020.11 - 2022.1
+      company: 阿里巴巴菜鸟网络科技有限公司，杭州
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -93,43 +84,17 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+
 projects:
-    title: Projects
+    title: 其他项目
     intro: >
       You can list your side projects or open source libraries in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
+      - title: 
         link: "#hook"
         tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 skills:
     title: 技能
@@ -142,9 +107,12 @@ skills:
         level: 90%
 
       - name: C/C++, Python, Java
-        level: 80%
+        level: 85%
 
       - name: RocketMQ, Kafka
+        level: 80%
+      
+      - name: Linux
         level: 80%
 
 footer: >
