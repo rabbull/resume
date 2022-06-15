@@ -3,117 +3,105 @@
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: 刘子森
-    tagline: 服务端开发工程师
-    avatar: avatar.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: 刘子森
+  tagline: 服务端开发工程师
+  avatar: avatar.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: karl.liu.1024@gmail.com
-    phone: (+86) 152 1042 2569
-    citizenship: 北京
-    website: rabbull.github.io/resume #do not add http://
-    linkedin: karl-liu-749a87195
-    xing:
-    github: rabbull
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter:
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf:
+  # Sidebar links
+  email: karl.liu.1024@gmail.com
+  phone: (+86) 152 1042 2569
+  citizenship: 北京
+  website: rabbull.github.io/resume #do not add http://
+  linkedin: karl-liu-749a87195
+  xing:
+  github: rabbull
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  twitter:
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  pdf:
 
-    languages:
-      - idiom: 中文
-        level: 母语
+  languages:
+    - idiom: 中文
+      level: 母语
 
-      - idiom: 英文
-        level: 大学六级
+    - idiom: 英文
+      level: 大学六级
 
-    interests:
-      - item: 运动：飞盘、美式橄榄球、篮球
-        link:
+  interests:
+    - item: 运动：飞盘、美式橄榄球、篮球
+      link:
 
-      - item: 硬件：电子垃圾回收再利用
-        link:
+    - item: 硬件：电子垃圾回收再利用
+      link:
 
-      - item: 游戏：Paradox Interactive 粉丝
-        link: 
+    - item: 游戏：Paradox Interactive 粉丝
+      link:
 
 education:
-    - title: 教育经历
+  title: 教育经历
+  graduations:
     - degree: 软件工程专业 工学学士
       university: 四川大学软件学院
-      time: 2017 - 2021
+      time: 2017.9 - 2021.7
       details: |
+        - 四川大学 IBM 俱乐部会长、网络安全攻防协会副会长
         - RoboMaster 机甲大师赛全球总决赛团体二等奖，2019
         - 大学生创新创业计划优秀项目第一名，2019
         - 四川大学计算机学院 ACM 秋季赛银奖，2018
         - 蓝桥杯四川省一等奖，2017
 
 experiences:
-    - title: 工作经历
+  title: 工作经历
+  roles:
     - role: 服务端软件工程师
-      time: 2021 - 今
-      company: 字节跳动，北京
+      time: 2021.7 - 今
+      company: 字节跳动，北京，Golang
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
+        参与大力教育旗下学浪 APP 的服务端迭代，产品定位是供全年龄段用户进行综合学习的平台，我主要负责直播教室、教学工具、学习体验与激励等方向的需求开发。
+        工作期间完成手机端直播链路打通及配套功能建设、完成多个方向的重点项目，支持业务推进与快速转型；并在组内进行多次技术业务分享、主导数次技术重构与安全改造。
+
     - role: 服务端软件工程师（实习）
-      time: 2020.11 - 2022.1
-      company: 阿里巴巴菜鸟网络，杭州
+      time: 2020.11 - 2021.1
+      company: 阿里巴巴菜鸟网络，杭州，Java
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        参与迭代开发“大宝”仓储管理系统的出库中枢系统、处理日常工单并解决日常需求。深度参与新架构开发，对接算法组提供的推荐能力，智能分派出库单，预期仓库全链路响应时间均值降低 30%。
 
 projects:
-    title: 其他项目
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: 
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  title: 项目经历
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title:
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
 skills:
-    title: 技能
+  title: 专业技能
+  toolset:
+    - name: Golang, Gin, Kitex
+      level: 95%
 
-    toolset:
-      - name: Golang, Gin, Kitex
-        level: 90%
+    - name: C, C++, Python, Java
+      level: 85%
 
-      - name: MySQL, Redis
-        level: 90%
+    - name: 数据库
+      detail: 熟悉 MySQL 使用及原理
 
-      - name: C/C++, Python, Java
-        level: 85%
-
-      - name: RocketMQ, Kafka
-        level: 80%
-      
-      - name: Linux
-        level: 80%
+    - name: 开发工具
+      detail: 熟练使用 Git, Docker 等开发工具
+    
+    - name: 系统设计
+      detail: 熟悉面向对象思想、微服务架构设计
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
