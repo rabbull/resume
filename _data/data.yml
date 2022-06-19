@@ -65,8 +65,7 @@ experiences:
       time: 2021.7 - 今
       company: 字节跳动，北京，Golang
       details: |
-        参与大力教育旗下学浪 APP 的服务端迭代，产品定位是供全年龄段用户进行综合学习的平台，我主要负责直播教室、教学工具、学习体验与激励等方向的需求开发。
-        工作期间完成手机端直播链路打通及配套功能建设、完成多个方向的重点项目，支持业务推进与快速转型；并在组内进行多次技术业务分享、主导数次技术重构与安全改造。
+        迭代维护学浪 APP 服务端，主要负责直播教室、教学工具、学习体验与激励等方向的需求开发。工作期间完成手机端直播链路打通及配套功能建设、完成多个方向的重点项目，支持业务推进与快速转型；并在组内进行多次技术业务分享、主导数次技术重构与安全改造。
 
     - role: 服务端软件工程师（实习）
       time: 2020.11 - 2021.1
@@ -76,14 +75,25 @@ experiences:
 
 projects:
   title: 项目经历
-  intro: >
-    You can list your side projects or open source libraries in this
-    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
-    - title:
-      link: "#hook"
-      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    - title: 学浪服务端
+      tagline: |
+        迭代维护学浪服务端程序，按业务规划实现新功能，优化代码质量、整体性能、稳定性与安全性。主要工作有：
+         - 直播教室：短时间掌握现有架构设计，打通手机端直播链路，建立监控大盘并进行稳定性提升，自动化发现错误并修复，减少 90% 需研发介入的用户反馈，释放大量研发人力。
+         - 教学工具：设计并开发群作品与点评、手机端直播、视频秒传等功能，解决头部用户痛点问题，降低工作流总时长，提高用户工作效率，广受用户好评。
+         - 学习体验与激励：设计并开发七日打卡、标重点、问老师等功能，显著提升用户粘性与平均视频观看时长。
+         - 技术优化与安全改造：
+           - 主导推进学浪对象存储安全改造，协调各端平滑过渡到签名方案，改造范围涉及学浪全部主链路但迁移过程没有发生任何线上问题；
+           - 调研核心服务网关现有架构缺陷与使用痛点，通过引入 GraphQL 子集，大幅提升性能至理论最高，并提高接口通用性与灵活性，规避频繁线上变更带来的风险；
+
+    - title: RoboMaster 机甲大师挑战赛
+      tagline: |
+        作为视觉组组长带领队伍完成对敌方机器人的自动化识别与瞄准射击，主要工作有：
+         - 问题拆解与分工，组织推进各个子模块开发与链条；
+         - 视觉程序架构设计，解耦算法实现与调度；
+         - 传统识别算法重构、实现与优化；
+         - 神经网络机器人识别算法、实现与整合；
+         - 双目距离估算算法设计与实现。
 
 skills:
   title: 专业技能
@@ -94,8 +104,8 @@ skills:
     - name: C, C++, Python, Java
       level: 85%
 
-    - name: 数据库
-      detail: 熟悉 MySQL 使用及原理
+    - name: 存储组件
+      detail: 熟悉 MySQL, Redis 等存储组件的使用及原理
 
     - name: 开发工具
       detail: 熟练使用 Git, Docker 等开发工具
